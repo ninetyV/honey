@@ -1,0 +1,276 @@
+@import url(fonts.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+} 
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}  
+
+.logo {
+    padding-left: 227px; 
+    padding-top: 30px;
+}
+
+.menu {
+    display: flex;
+    padding-right: 187px; 
+    padding-top: 38px; 
+} 
+
+.menu__list { 
+    font-family: 'Kodchasan-Medium';
+    font-size: 18px;
+    line-height: 23px; 
+    padding-right: 40px;
+    transition: 0.5s; 
+} 
+
+.menu__list:hover {
+    font-family: 'Kodchasan-Bold'; 
+} 
+
+ 
+.container {
+    max-width: 1400px;
+    margin: 0 auto; 
+}
+
+
+.banner__wrap {
+    width: 1500px;
+    height: 865px;
+    margin-top: 30px; 
+    background: url(../img/honey__banner.png);
+} 
+
+.banner {
+    display: flex;
+    justify-content: center; 
+}  
+
+.banner__slogan {
+    padding-top: 182px;
+    padding-left: 177px;
+}
+
+.slogan__word {
+    font-family: 'Kodchasan-Bold';
+    font-size: 100px;
+    line-height: 130px;
+} 
+
+.slogan__secword {
+    font-family: 'Kodchasan-Bold';
+    font-size: 100px;
+    line-height: 130px;
+    padding-left: 98px;
+} 
+
+.purchase__btns { 
+    display: flex;
+    gap: 20px;
+    padding-top: 70px;
+    padding-left: 177px; 
+    padding-bottom: 138px;
+} 
+
+
+.btn {
+    font-family: 'Kodchasan-Bold';
+    font-size: 18px;
+    line-height: 29px; 
+    color: black; 
+    background: #FFA638;
+    border: 2px solid black; 
+    padding: 18px 50px; 
+    transition: 0.3s;
+} 
+
+.btn:hover {
+    color: white;
+    background: black;
+}
+
+.shops__heading {
+    margin-top: 130px;
+}
+
+.heading1 {
+    font-family: 'Kodchasan-Bold';
+    font-size: 45px;
+    line-height: 72px; 
+} 
+
+
+.shops__box {
+    margin-top: 50px; 
+} 
+
+.shops__menu {
+    display: flex;
+    justify-content: space-between; 
+} 
+
+.main__box1 {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    padding-top: 130px; 
+    gap: 35px;
+} 
+
+.heading2 {
+    font-family: 'Kodchasan-Bold';
+    font-size: 45px;
+    line-height: 65px;
+} 
+
+.main__desc1 {
+    font-family: 'Kodchasan-SemiBold';
+    font-size: 22px;
+    line-height: 35px;
+    padding-top: 30px;
+}  
+
+.btn3 {
+    font-family: 'Kodchasan-Bold';
+    font-size: 18px;
+    line-height: 29px; 
+    padding: 15px 40px;
+    background: #E58311;
+    color: white;
+    border: none;
+} 
+
+
+.container__second {
+    max-width: 1146px;
+    margin: 0 auto; 
+} 
+
+.container__second__wrap {
+    margin-top: 100px;
+} 
+
+.wrap__heading {
+    font-family: 'Kodchasan-Bold';
+    font-size: 45px;
+    line-height: 72px;
+    color: black;
+} 
+
+.wrap__link {
+    font-family: 'Kodchasan-Bold';
+    font-size: 18px;
+    line-height: 29px;
+    color: #E58211;
+    padding-top: 30px;
+} 
+
+.first__wrap {
+    display: flex;
+    justify-content: space-between; 
+} 
+
+.main__box {
+    margin-top: 50px; 
+    display: flex; 
+    gap: 30px;
+} 
+
+.main__child {
+    display: flex; 
+    width: 558px;
+    height: 305px; 
+    background-color: #fdf6ee;
+} 
+
+.main__heading {
+    font-family:' Kodchasan-SemiBold';
+    font-size: 28px;
+    line-height: 39px; 
+    padding-top: 45px; 
+    padding-left: 30px;
+} 
+
+.main__desc {
+    font-family: 'Kodchasan-SemiBold';
+    font-size: 16px;
+    line-height: 26px; 
+    padding-top: 20px; 
+    padding-left: 30px;
+} 
+
+.main__btn {
+    padding-top: 30px; 
+    padding-left: 30px;
+} 
+
+.main__btn__setup {
+    font-family: 'Kodchasan-Bold';
+    font-size: 18px;
+    line-height: 29px; 
+    padding: 15px 40px; 
+    color: #E58211;
+    border: 1px solid #E58211; 
+    background: #fdf6ee;
+} 
+
+.main__img {
+    padding: 28px 0; 
+} 
+
+.main__img__b {
+    padding-left: 60px; 
+    padding-top: 43px;
+}  
+
+.footer {
+    margin-top: 130px; 
+    background: #FFA638;
+}
+
+.footer__desc {
+    font-family: 'Kodchasan-Medium';
+    font-size: 14px;
+    line-height: 22px;
+    color: black;
+}
+
+.wrap {
+    padding: 54px 0; 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-evenly;
+} 
+
+.footer__logos {
+    display: flex; 
+    gap: 50px;
+    align-items: center;
+} 
+
+.store { 
+    display: flex;
+    gap: 20px; 
+    padding-left: 173px;
+} 
+
+.media { 
+    padding-left: 88px;
+}
+
+    
+
+ 
+
+    
+
+
